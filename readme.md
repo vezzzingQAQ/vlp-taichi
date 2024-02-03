@@ -36,6 +36,14 @@ https://docs.taichi.graphics/docs/
 
 * [环境搭建](./notes/概览/环境搭建.md)
 
-* [TAICHI hello world](./notes/概览/helloWorld.md)
+* [初始化taichi程序](./notes/概览/初始化taichi程序.md)
+
+* [组织taichi的数据](./notes/概览/组织taichi数据.md)
+
+* [taichi计算核](./notes/概览/taichi计算核.md)
+
+* [可视化taichi程序](./notes/概览/可视化taichi程序.md)
+
+* [taichi hello world](./notes/概览/taichiHelloWorld.md)
 
 **powered by vezzzingQAQ**

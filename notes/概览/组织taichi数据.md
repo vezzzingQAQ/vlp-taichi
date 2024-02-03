@@ -1,35 +1,6 @@
-## HELLO WORLD
+## 组织数据
 
-### 初始化
-
-```python
-import taichi as ti
-ti.init(arch=ti.gpu)
-```
-
-#### ti.init()
-
-![](./../assets/8.png)
-
-#### python scope & taichi scope
-
-![](./../assets/9.png)
-
-python-scope中就是常规python代码
-
-#### python scope
-
-![](./../assets/10.png)
-
-#### taichi scope
-
-![](./../assets/11.png)
-
-被@ti.kernel或者@ti.func修饰的函数
-
-### 数据
-
-#### taichi数据类型
+### taichi数据类型
 
 * signed integers:ti.i8, ti.i16, ti.i32, ti.i64
 
@@ -41,13 +12,13 @@ taichi的默认整型是ti.i32, taichi的默认浮点型是ti.f32
 
 ![](./../assets/12.png)
 
-##### 类型转换
+#### 类型转换
 
 i32 + i32 = i32
 
 i32 + i64 = i64
 
-##### 隐式转换
+#### 隐式转换
 
 ![](./../assets/13.png)
 
@@ -55,7 +26,7 @@ i32 + i64 = i64
 
 右边的taichi代码就不行，会对赋进去的值进行隐式转换
 
-##### 显式转换
+#### 显式转换
 
 ti.cast(variable, type)
 
@@ -70,7 +41,7 @@ def foo():
     b=ti.cast(a,ti.i32)
 ```
 
-##### 复合类型
+#### 复合类型
 
 vector/matrix/struct
 
@@ -117,7 +88,7 @@ a=ti.Vector([1.0,2.0,3.0])
 a[1]
 ```
 
-#### ti.field
+### ti.field
 
 表示场
 
@@ -133,7 +104,7 @@ heat_field=ti.field(dtype=ti.f32,shape=(256,256))
 
 里面的element可以是数据, vector, matrix或者struct
 
-##### 访问field元素
+#### 访问field元素
 
 ```python
 import taichi as ti
@@ -157,7 +128,7 @@ def foo():
     vf[0]=v
 ```
 
-##### field的一些例子
+#### field的一些例子
 
 3D Gravitational Field in a 256x256x256 Room
 
@@ -177,7 +148,7 @@ a Global Scalar that I Want to Access in a Taichi Kernel
 global_scalar=ti.field(dtype=ti.f32,shape=())
 ```
 
-#### 例子：N体系统
+### 例子：N体系统
 
 ```python
 G=1
