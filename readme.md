@@ -46,4 +46,8 @@ https://docs.taichi.graphics/docs/
 
 * [taichi hello world](./notes/概览/taichiHelloWorld.md)
 
+#### 元编程和面向对象编程
+
+* [元编程](./notes/元编程&面向对象/元编程.md)
+
 **powered by vezzzingQAQ**
