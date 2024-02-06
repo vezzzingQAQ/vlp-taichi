@@ -50,4 +50,8 @@ https://docs.taichi.graphics/docs/
 
 * [元编程](./notes/元编程&面向对象/元编程.md)
 
+* [面向对象编程](./notes/元编程&面向对象/面向对象编程.md)
+
+* [多体引力例子](./notes/元编程&面向对象/例子.md)
+
 **powered by vezzzingQAQ**
