@@ -54,4 +54,10 @@ https://docs.taichi.graphics/docs/
 
 * [多体引力例子](./notes/元编程&面向对象/例子.md)
 
+#### 高级数据结构
+
+* [高级稠密数据结构](./notes/高级数据结构/高级稠密数据结构.md)
+
+* [高级稀疏数据结构](./notes/高级数据结构/高级稀疏数据结构.md)
+
 **powered by vezzzingQAQ**
